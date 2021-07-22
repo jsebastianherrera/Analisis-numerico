@@ -1,6 +1,5 @@
 import numpy as np
 import sympy as sym
-from sympy.core.sympify import sympify
 from sympy.polys.polytools import factor
 x = sym.symbols('x')
 expre = "x**3-2*x**2+4*x/3-8/27"
